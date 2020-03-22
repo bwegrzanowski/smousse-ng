@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "smousse"
+    }
+  },
+  "defaultProject": "smousse",
+  "cli": {
+    "analytics": "bbe69238-d99d-4d14-89fb-cbd349a5f5e6"
+  }
 }

@@ -1,0 +1,21 @@
+.menu-container {
+  height: 90vh;
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.play {
+  cursor: pointer;
+  //height: 10%;
+  grid-area: 1/1/2/4;
+}
+
+.how-to-play{
+  cursor: pointer;
+  height: 10%;
+  grid-area: 2/1/3/4;
+}
+.menu-text {
+  text-align: center;
+  grid-area: 2/2/6/5;
+}

@@ -1,0 +1,19 @@
+
+.main-container {
+  grid-area: 1/1/9/5;
+  z-index: -1;
+}
+
+.background {
+  grid-area: 2/1/10/5;
+  background-image: radial-gradient(circle, rgb(63, 251, 81) 0%, rgb(21, 161, 21) 100%);
+  width: 100%;
+  z-index: -1;
+  max-height: 100vh;
+  min-height: 100vh;
+
+}
+
+.logo {
+  cursor: pointer;
+}
